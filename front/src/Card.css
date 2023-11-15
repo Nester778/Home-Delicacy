@@ -1,0 +1,46 @@
+#img-card {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#img-card-wrapper {
+    height: 240px;
+    overflow: hidden;
+}
+
+.border-card {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.font {
+    font-size: 12px;
+}
+
+.text {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.difficult {
+    padding-top: 5px;
+}
+
+.cont {
+    position: relative;
+
+    /* Задайте ширину и высоту контейнера, чтобы соответствовать размерам изображения */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Задайте цвет фона и прозрачность для текстового блока */
+    color: #ffffff;
+    /* Задайте цвет текста */
+    padding: 10px;
+    /* Добавьте отступы по вашему усмотрению */
+}

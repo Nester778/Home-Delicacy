@@ -1,0 +1,12 @@
+.bgimg {
+  width: 100%;
+}
+
+.more-btn {
+  display: inline-block;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  margin: 5px;
+  cursor: pointer;
+  user-select: none;
+}
